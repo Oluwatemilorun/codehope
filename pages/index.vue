@@ -97,7 +97,7 @@
 					<v-flex xs12 md6>
 						<v-layout fill-height justify-center align-center row wrap style="min-height: 400px">
 							<v-flex xs10>
-								<v-img :src="img2" height="100%" width="100%" cover>
+								<v-img :src="bim" height="100%" width="100%" cover>
 									<v-layout slot="placeholder" fill-height align-center justify-center ma-0>
 										<v-progress-circular indeterminate color="accent"></v-progress-circular>
 									</v-layout>
@@ -291,7 +291,7 @@
 </template>
 
 <script>
-import bg from "@/assets/slider.png";
+import bg from "@/assets/slider3.jpg";
 import pg from "@/assets/programmer.svg";
 import img from "@/assets/5.jpg";
 import augma from "@/assets/3.jpg";
@@ -300,6 +300,7 @@ import nwt from "@/assets/nwt.jpg";
 import wc3 from "@/assets/wc3.jpg";
 import acw from "@/assets/acw.jpg";
 import hoc from "@/assets/hoc.jpg";
+import bim from "@/assets/bim.jpg";
 import img2 from "@/assets/4.jpg";
 import parallax from "@/assets/parallax.png";
 
@@ -315,6 +316,7 @@ export default {
 			acw,
 			img2,
 			nwt,
+			bim,
 			parallax,
 			get_involved: false,
 			taglines: [
